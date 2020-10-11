@@ -1,0 +1,183 @@
+:root{
+    --dark: #1a1a1a;
+    --white: #ffffff;
+    --magenta: #fc007e;
+    --gold: #ebcb63;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+    background-color:  var(--dark);
+}
+
+h1{
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 90px;
+}
+
+.title-porfolio{
+    color: var(--white);
+}
+
+p{
+    font-size: 19px;
+    color: var(--white);
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.bg-dark{
+    background-color: var(--dark)!important;
+}
+
+.bg-light{
+    background-color: var(--white)!important;
+}
+
+.nav-link{
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.text-light{
+    color: var(--white)!important;
+}
+
+.text-gold{
+    color: var(--gold);
+}
+
+.topmargin-xs{margin-top:15px}
+.topmargin-sm{margin-top:30px}
+.topmargin-lg{margin-top:60px}
+
+.hero-topmargin-lg{
+    margin-top: 150px!important;
+}
+
+.btn{
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-light{
+    background-color: var(--white);
+    color: var(--dark);
+    border: 2px solid var(--white);
+}
+
+.btn ion-icon{
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.navbar{
+    min-height: 5rem;
+}
+
+
+
+a{
+    color: var(--white);
+    
+}
+
+a:hover{
+    color: var(--magenta);
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    color: var(--white)!important;
+    font-size: 40px;
+}
+
+.navbar-toggler:hover{
+    outline: none;
+} 
+
+section{
+    padding: 6rem 0;
+}
+
+#hero{
+    background-image: url('img/photo-1480506132288-68f7705954bd.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: var(--white);
+}
+
+.content-center{
+    max-width: 900px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.portfolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+    border-radius: 2px;
+    
+}
+
+.portfolio-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.bold-h1{
+    color: rgb(255, 230, 91);
+}
+
+.portfolio-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.portfolio-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.blog-info{
+    color: var(--white);
+    bottom: 1rem;
+    left: 1.5rem;
+}
+
+.title-team  {
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 90px;
+}
+
+.map-icon{
+    display: flex;
+    align-items: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+ 
+
+
+
+@media (max-width: 575.98px) { 
+    h1 { font-size: 40px; line-height: normal;}
+
+}
